@@ -1,0 +1,34 @@
+<section class="singlePage">
+	<div class="pageHero-container">
+		<div class="container">	
+			<h3 class="text-center">{{singleApparel.name}}</h3 class="text-center">
+			<hr class="miniHr">
+			<div class="row">
+				<div class="col-sm-offset-1 col-sm-4">
+					<img src="{{singleApparel.imgUrl}}" alt="{{singleApparel.name}}" class="img-responsive">
+				</div>
+				<div class="col-sm-offset-1 col-sm-6">
+					<div class="caption">
+						<strong class="title"><p>Price : <span>{{singleApparel.price}} {{singleApparel.curency}}</span></p></strong>
+						<p>Available Size : <span ng-repeat="size in singleApparel.sizeBody">{{size.sizeName}}</span></p>
+						
+						<p>Color : <span>{{singleApparel.color}}</span></p>
+						<ul>
+							<li ng-repeat="desc in singleApparel.description">{{desc.descDetail}}</li>
+						</ul>
+					</div>
+					<section class="share">
+						<strong><p class="title">share and like!</p></strong>
+						<hr>
+						<section class="button-share text-right">
+							<a href="#" socialshare socialshare-provider="twitter" socialshare-text="POSTER - {{singleApparel.name}}" socialshare-hashtags="apparelPapayaStreetArt,PapayaStreetArt"
+							socialshare-url="{{current}}" class="btn btn-social social-twitter"><span class="fa fa-twitter"></span></a>
+							<a href="#" socialshare socialshare-provider="facebook" socialshare-text="POSTER - {{singleApparel.name}}" socialshare-hashtags="apparelPapayaStreetArt,PapayaStreetArt"
+							socialshare-url="{{current}}" class="btn btn-social social-facebook"><span class="fa fa-facebook"></span></a>
+						</section>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

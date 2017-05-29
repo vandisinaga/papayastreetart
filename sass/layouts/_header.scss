@@ -1,0 +1,28 @@
+.header-container{
+	nav{
+		background: none;
+		margin: 0;
+		.navbar-header{
+			.navbar-brand{
+				max-width: 100%;
+				padding: 10px;
+				img{
+					max-width: 120px;
+				}
+			}
+		}
+		.navbar-nav{
+			li{
+				a{
+					font-family:'LatoSemiBold';
+					font-size: 16px;
+					text-transform: capitalize;
+				}
+				&.active a,&.active a:focus, &.active a:hover{
+					color:$crem;
+					background:none;
+				}
+			}
+		}
+	}
+}

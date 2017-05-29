@@ -1,0 +1,31 @@
+.footer-container{
+	background: $grey2;
+	padding: 60px 0 30px;
+	.footer-logo{
+		max-width: 120px;
+	}
+	.footer-title{
+		border-bottom:solid thin $grey;
+	    font-size: 16px;
+        margin-bottom: 10px;
+	}
+	.footer-contact{
+		span{
+			a{
+				font-family:'OpenSans';
+			    margin-left: 15px;
+			}
+		}
+	}
+	.social-media{
+
+	}
+	li{
+		a{
+			color: $grey3;
+			&:hover,&:focus{
+				color: $red;
+			}
+		}
+	}
+}

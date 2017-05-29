@@ -1,0 +1,206 @@
+[
+  { 
+    "id":1,
+    "name": "BMW E46 PANDEM",
+    "price": 130000,
+    "curency":"IDR",
+    "imgUrl": "/images/apparel/IMG_8449.jpg",
+    "sizeBody": [
+        {"sizeId":1,"sizeName":"M,"},
+        {"sizeId":2,"sizeName":" L,"},
+        {"sizeId":3,"sizeName":" XL"}
+    ],
+    "color":"white",
+    "category":"apparel",
+    "description":[
+        {"descID":1,"descDetail":"Represent the blending old and new."},
+        {"descID":2,"descDetail":"Cotton Combed 30s"},
+        {"descID":3,"descDetail":"Shirt made & printed in INDONESIA"},
+        {"descID":4,"descDetail":"Body fit jersey fabric."}
+    ]
+  },
+  { 
+    "id":2,
+    "name": "Porsche 993 RWB",
+    "price": 130000,
+    "curency":"IDR",
+    "imgUrl": "images/apparel/IMG_8462.jpg",
+    "sizeBody": [
+        {"sizeId":1,"sizeName":"M,"},
+        {"sizeId":2,"sizeName":" L,"},
+        {"sizeId":3,"sizeName":" XL"}
+    ],
+    "color":"white",
+    "category":"apparel",
+    "description":[
+        {"descID":1,"descDetail":"Represent the blending old and new."},
+        {"descID":2,"descDetail":"Cotton Combed 30s"},
+        {"descID":3,"descDetail":"Shirt made & printed in INDONESIA"},
+        {"descID":4,"descDetail":"Body fit jersey fabric."}
+    ]
+  },
+  { 
+    "id":3,
+    "name": "Nissan GTR R34",
+    "price": 130000,
+    "curency":"IDR",
+    "imgUrl": "images/apparel/IMG_8450.jpg",
+    "sizeBody": [
+        {"sizeId":1,"sizeName":"M,"},
+        {"sizeId":2,"sizeName":" L,"},
+        {"sizeId":3,"sizeName":" XL"}
+    ],
+    "color":"black",
+    "category":"apparel",
+    "description":[
+        {"descID":1,"descDetail":"Represent the blending old and new."},
+        {"descID":2,"descDetail":"Cotton Combed 30s"},
+        {"descID":3,"descDetail":"Shirt made & printed in INDONESIA"},
+        {"descID":4,"descDetail":"Body fit jersey fabric."}
+    ]
+  },
+  { 
+    "id":4,
+    "name": "HONDA CIVIC ESTILO",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/Honda Civic Estilo.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  },
+  { 
+    "id":5,
+    "name": "HONDA CIVIC FD2R",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/Honda Civic FD2R.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  },
+  { 
+    "id":6,
+    "name": "HONDA CIVIC FB",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/Honda Civic FB.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  },
+  { 
+    "id":7,
+    "name": "HONDA NSX Mugen RR",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/HONDA NSX Mugen RR.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  },
+  { 
+    "id":8,
+    "name": "NISSAN SKYLINE GTR R34",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/gtr r34.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  },
+  { 
+    "id":9,
+    "name": "SUBARU IMPREZA WRX GRB",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/SUBARU WRX.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  },
+  { 
+    "id":10,
+    "name": "BMW E36",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/BMW E36.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  },
+  { 
+    "id":11,
+    "name": "BMW E46 PANDEM",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/BMW E46.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  },
+  { 
+    "id":12,
+    "name": "Porsche 993 RWB",
+    "priceTotal": 130000,
+    "priceInfo": "(Exclude Frame)",
+    "imgUrl": "images/artworks/Porsche 993 RWB.jpg",
+    "framePrice": 85000,
+    "curency":"IDR",
+    "sizePaper": [
+        {"sizeId":1,"sizeName":"A4, "},
+        {"sizeId":2,"sizeName":"A3"}
+    ],
+    "color":"You can request any color",
+    "category":"artworks",
+    "description": "Any other request design? Don't hesitate to text me."
+  }
+]

@@ -1,0 +1,53 @@
+@include font-face(OpenSans,/fonts/OpenSans-Regular, null, null, ttf);
+@include font-face(Lato,/fonts/Lato-Regular,null,null,ttf woff woff2);
+@include font-face(LatoBold,/fonts/Lato-Bold,null,null,ttf woff woff2);
+@include font-face(LatoSemiBold,/fonts/Lato-Semibold,null,null,ttf woff woff2);
+p{
+	color:$black;
+}
+body{
+	font-family:'OpenSans';
+}
+h1,h2,h3,h4,h5,h6,h6,h7,.h1,.h2,.h3,.h4,.h5,.h6,.h6,.h7{
+	font-family:'LatoSemiBold';
+}
+li{
+	list-style: none;
+}
+.title{
+	font-family:'LatoSemiBold';
+    margin-top: 15px;
+    font-size: 16px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+hr.miniHr{
+	margin-top: 20px;
+    width: 10%;
+    margin-bottom: 60px
+}
+.pageHero-container{
+	margin-bottom: 120px;
+}
+.search{
+	// float: right;
+	margin: 30px 0;
+}
+ul{
+	padding: 0;
+}
+a{
+	&:hover{
+		text-decoration: none;
+	}
+}
+.breadcrumb{
+    // margin-top: 40px;
+    // text-align: center;
+    text-transform: capitalize;
+    // background: none;
+}

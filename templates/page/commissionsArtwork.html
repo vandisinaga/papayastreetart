@@ -1,0 +1,32 @@
+<section class="commision">
+	<div class="pageHero-container">
+		<div class="page-hero hidden-xs"></div>
+		<div class="container">
+			<h1 class="text-center uppercase">{{title}}</h1>
+			<hr class="miniHr">
+			<div class="search">
+				<div class="form-group">
+					<label for="search" class="sr-only">search:</label>
+					<input type="text" class="form-control" ng-model="query" placeholder="Search here...">
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+			<div ng-repeat="commisionArtwork in commisionArtworks | filter:query" class="">
+				<grid-commision data="commisionArtwork"></grid-commision>
+				<div ng-if="$index % 4== 3">
+			  		<div class="clearfix visible-md visible-lg"></div>
+				</div>
+
+				<div ng-if="$index % 3== 2">
+			  		<div class="clearfix visible-sm"></div>
+				</div>
+				<div ng-if="$index % 2== 1">
+			  		<div class="clearfix visible-xs"></div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</section>
+
+

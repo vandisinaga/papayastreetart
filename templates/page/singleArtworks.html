@@ -1,0 +1,32 @@
+<section class="singlePage">
+	<div class="pageHero-container">
+		<div class="container">	
+			<h3 class="text-center">POSTER - {{singleArtworks.name}}</h3 class="text-center">
+			<hr class="miniHr">
+			<div class="row">
+				<div class="col-sm-offset-1 col-sm-4">
+					<img src="{{singleArtworks.imgUrl}}" alt="{{singleArtworks.name}}" class="img-responsive">
+				</div>
+				<div class="col-sm-offset-1 col-sm-6">
+					<div class="caption">
+						<strong><p>Price : <span>{{singleArtworks.priceTotal}} {{singleArtworks.curency}} {{singleArtworks.priceInfo}}</span></p></strong>
+						<p>Canvas Size : <span ng-repeat="size in singleArtworks.sizePaper">{{size.sizeName}}</span></p>	
+						<p>Frame Price : <span>{{singleArtworks.framePrice}} {{singleArtworks.curency}}</span></p>
+						<p>Color : <span>{{singleArtworks.color}}</span></p>
+						<p>{{singleArtworks.description}}</p>
+					</div>
+					<section class="share">
+						<strong><p class="title  text-right">share and like!</p></strong>
+						<hr>
+						<section class="button-share text-right">
+							<a href="#" socialshare socialshare-provider="twitter" socialshare-text="POSTER - {{singleArtworks.name}}" socialshare-hashtags="artworksPapayaStreetArt,PapayaStreetArt"
+							socialshare-url="{{current}}" class="btn btn-social social-twitter"><span class="fa fa-twitter"></span></a>
+							<a href="#" socialshare socialshare-provider="facebook" socialshare-text="POSTER - {{singleArtworks.name}}" socialshare-hashtags="artworksPapayaStreetArt,PapayaStreetArt"
+							socialshare-url="{{current}}" class="btn btn-social social-facebook"><span class="fa fa-facebook"></span></a>
+						</section>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

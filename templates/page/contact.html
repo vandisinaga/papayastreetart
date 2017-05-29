@@ -1,0 +1,18 @@
+<section class="singlePage">
+	<div class="pageHero-container">
+		<section class="contact">
+			<div class="container">
+				<h1 class="text-center uppercase">{{title}}</h1>
+				<hr class="miniHr">
+				<h3>{{titleh3}}</h3>
+				<div ng-repeat="contact in contacts">
+					<p>{{contact.info}}</p>
+					<p>Follow : <a href="{{contact.iglink}}">{{contact.igname}}</a></p>
+					<p>{{contact.address}}</p>
+					<p>Phone : {{contact.phone}}</p>
+					<p>Email : {{contact.email}}</p>
+				</div>
+			</div>
+		</section>
+	</div>
+</section>	

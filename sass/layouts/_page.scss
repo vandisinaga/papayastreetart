@@ -1,0 +1,73 @@
+.apparel{
+	.pageHero-container{
+		.page-hero{
+			background:url('../images/papaya2.png');
+		    background-size: cover;
+		    height: 200px;
+	        background-position: 50%,50%;
+	        margin-bottom: 30px;
+		}
+		img{
+			margin-bottom: 15px;
+		}	
+	}	
+}
+
+.productThumbnail{
+	border: solid 1px #d8d8d8;
+	&:hover,&:focus{
+		@include box-shadow(0px, 0px, 20px, -5px, #6f6f6f);
+	}
+}
+.artworks{
+	.pageHero-container{
+		.page-hero{
+			background:url('../images/papaya1.png');
+		    background-size: cover;
+		    height: 200px;
+	        background-position: 50%,50%;
+	        margin-bottom: 30px;
+		}
+	}	
+}
+
+
+.commision{
+	.productThumbnail{
+		border: none;
+		margin-top: 20px;
+		&:hover,&:focus{
+			@include box-shadow(0px, 0px, 0px, 0px, #fff);
+		}
+		&:hover .ownerCommision,&:focus .ownerCommision{
+			color: $red;
+		}
+		.ownerCommision{
+			color: $orange;
+			margin-top: 2px;
+		}
+	}
+}
+.singlePage{
+	margin-top: 60px;
+	.caption{
+		margin-top: 15px;
+	}
+	ul{
+	    padding: 0;
+		list-style-position: inside;
+		li{
+			list-style: inherit;
+		}
+	}
+	.share{
+		margin-top: 30px;
+		strong{
+			font-size: 16px;
+		    text-transform: capitalize;
+		}
+		hr{
+			margin-top: 0;
+		}
+	}
+}

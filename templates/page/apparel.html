@@ -1,0 +1,19 @@
+<section class="apparel">
+	<div class="pageHero-container">
+		<!-- <div class="page-hero hidden-xs"></div> -->
+		<div class="container">
+			<h1 class="text-center uppercase">{{title}}</h1>
+			<hr class="miniHr">
+			<div class="search">
+				<div class="form-group">
+					<label for="search" class="sr-only">search:</label>
+					<input type="text" class="form-control" ng-model="query" placeholder="Search here...">
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div ng-repeat="apparelItem in apparelItems | filter: {category:'apparel'} | filter: query" class="">
+				<grid-apparel data="apparelItem"></grid-apparel>
+			</div>	
+		</div>
+	</div>
+</section>
